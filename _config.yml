@@ -21,7 +21,7 @@ linkedin_username: atharvadshmkh
 # Additional icon links
 additional_links:
 - title: Resume
-  icon: fas fa-globe
+  icon: fas fa-file
   url: https://drive.google.com/file/d/1UfjfwjRcyVLZo_APMHH0l7sCpfkMk1gL/view?usp=sharing
 
 # Google Analytics and Tag Manager
