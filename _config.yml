@@ -1,5 +1,5 @@
 # Site
-repository: 
+repository: https://github.com/dshmkh/dshmkh.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -19,13 +19,10 @@ github_username:  dshmkh
 linkedin_username: atharvadshmkh
 
 # Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+additional_links:
+- title: Resume
+  icon: fas fa-globe
+  url: https://drive.google.com/file/d/1UfjfwjRcyVLZo_APMHH0l7sCpfkMk1gL/view?usp=sharing
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
