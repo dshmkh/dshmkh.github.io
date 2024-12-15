@@ -1,0 +1,150 @@
+# Site
+repository: 
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Atharva Deshmukh
+title: Master of Computer Science @ University of Sydney
+email: deshmukhatharva79@gmail.com
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  dshmkh
+# stackoverflow_username: "00000001"
+linkedin_username: atharvadshmkh
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Atharva! 
+
+  I am an accomplished Data professional currently pursuing higher education at the University of Sydney. I have an established experience in everything data (Engineering, Analytics, Science, Warehousing, Governance, ML/AI) and a proven history in achieving business goals, with a practical approach and a data-driven mindset. I am an effective leader when needed and am quick to adapt in a rapidly changing environment.
+
+
+content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University of Sydney
+        caption: February 2024 to Present
+        sub_title: Master of Computer Science (Data Science and AI Specialisation) 
+        description: | # this will include new lines to allow paragraphs
+          **Coursework:** Python Programming, Database Management Systems, Project Management in IT, Data Structures and Algorithms, Data Science, Statistics, IT Innovation Theory.
+
+          **Scholarship:** Sydney International Student Award (SISA) - Received a 20 percent scholarship for the duration of my Master’s Degree at USYD.  
+
+      - layout: left
+        title: Ramaiah Institute of Technology
+        caption: July 2017 - October 2021
+        sub_title: Bachelor of Engineering (Electronics and Communications Engineering) 
+        description: | # this will include new lines to allow paragraphs
+          **Activities and societies:** Member of Western Music Team and Theatre Society.
+
+          **Coursework:** Fundamentals of Computing, Linear Algebra, Machine Learning, Python Application Programming, Wireless and Data Communication, Internet of Things, Cryptography, Information Theory and Coding, Digital Signal Processing, Microcontrollers, Microprocessors, Control Systems.          
+  
+  
+  - title: Work Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      
+      - layout: left
+        title: ANZ Bank 
+        link: https://www.anz.com.au/
+        # link_text:
+        sub_title: Site Reliability Engineer I, II 
+        caption: April 2021 to January 2024
+        description: | # this will include new lines to allow paragraphs
+            • Led Customer Data Analytics and Data Warehousing initiatives within the Australian data tribe, focusing on a Customer Data Asset built on <mark>Teradata</mark> and <mark>Oracle PL/SQL</mark>. This asset served approximately 5,000 internal stakeholders.
+
+            • Orchestrated a comprehensive decommissioning project for legacy <mark>SAS</mark> and Oracle PL/SQL-based data assets, facilitating migration to Teradata and open-source cloud infrastructure. Conducted meticulous data lineage checks and attribute tracking to ensure seamless rebuilding of data assets on modern cloud platforms.
+
+            • Played a key role in the <mark>Unica</mark> Marketing platform team, leveraging customer data to design and execute marketing campaigns targeting key ANZ Australia segments (Home Loans, Business Owners, and General Customers). Managed workflows to meet SLAs, impacting a customer base of nearly 5 million.
+
+            • Maintained platform stability through proactive monitoring of batch processes, reconciliation of ETL documentation, and risk assessment of upstream changes and planned outages. Collaborated with senior engineers to implement production changes while adhering to site standards.
+
+            • Partnered with database teams to revise site standards and implement a role-based access framework for database tables, enhancing data security and governance.
+
+            • Demonstrated versatility in an Agile Development environment, serving as Scrum Master for two months and actively contributing to process improvement initiatives. Conducted knowledge transfer sessions on Data Engineering standards, tool usage, and ETL workflows. This led to a promotion 18 months into the role.
+      - layout: left
+        title: 3DataGuys
+        #link:
+        # link_text:
+        sub_title: Data Science Intern
+        caption: August 2020 to November 2020
+        description: | # this will include new lines to allow paragraphs
+
+            • Developed content on Data Science and Machine Learning topics. Conducted data analysis and model training with test datasets and published articles reinforcing fundamental data science concepts.
+            
+            • Collaborated with industry professionals to utilize standard Data Visualization tools for eﬀective and accurate data storytelling.
+
+
+  - title: Publications and Research Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Deep Neural Network Model for Automated Detection of Alzheimer’s Disease using EEG Signals
+        link: https://doi.org/10.3991/ijoe.v18i08.29867
+        link_text: DOI Link
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: https://github.com/dshmkh/Azheimer-s-Classification-using-EEG-Signals
+        description: | # this will include new lines to allow paragraphs
+            This study proposes an automated and highly accurate approach for detecting Alzheimer's Disease using EEG signals, combining signal processing techniques with deep learning methods. The methodology incorporates Butterworth filters, discrete wavelet transform (DWT), statistical feature extraction, data augmentation, generative adversarial networks (GANs), and convolutional neural networks (CNNs). This integrated approach yielded a classifier with a peak accuracy of 97.61%. The study was conducted using <mark>MATLAB</mark> and <mark>Python</mark>.
+      - layout: top-middle
+        title: Hand Tracking using Object Detection
+        description: | # this will include new lines to allow paragraphs
+          Worked with <mark>YoloV3</mark> object detection framework for tracking hand movement using bounding boxes. This work involved developing a new dataset from scratch and using annotation tools to define bounding boxes. A dataset with frame-wise images and 21 features was created and used for training the framework.
+
+  - title: Technical Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+        • **Engineering & Data Warehousing:** Data Engineering, Data Warehousing, ETL (Extract, Transform, Load), Data Migration
+
+        • **Data Analytics & Visualization:** Data Analytics, QlikView, Apache Spark, Data Storytelling
+
+        • **Databases & Query Languages:** SQL (Teradata, Oracle, PostgreSQL)
+
+        • **Programming Languages:** Python, MATLAB, Arduino-C
+
+        • **Machine Learning & Deep Learning:** Machine Learning, Deep Learning (Keras, TensorFlow)
+
+        • **Version Control & Tools:** Git
+
+        • **Other Tools & Platforms:** MS Office
+
+# Footer
+footer_show_references: false
+#references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
