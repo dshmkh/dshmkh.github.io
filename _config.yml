@@ -38,7 +38,7 @@ about_content: |
 
   I am an accomplished Data professional currently pursuing higher education at the University of Sydney. I have an established experience in everything data (Engineering, Analytics, Science, Warehousing, Governance, ML/AI) and a proven history in achieving business goals, with a practical approach and a data-driven mindset. I am an effective leader when needed and am quick to adapt in a rapidly changing environment.
 
-
+# Education Details
 content:
   - title: Education 
     layout: list 
@@ -61,7 +61,7 @@ content:
 
           **Coursework:** Fundamentals of Computing, Linear Algebra, Machine Learning, Python Application Programming, Wireless and Data Communication, Internet of Things, Cryptography, Information Theory and Coding, Digital Signal Processing, Microcontrollers, Microprocessors, Control Systems.          
   
-  
+  # Work Experiences 
   - title: Work Experience 
     layout: list 
     content:
@@ -93,7 +93,7 @@ content:
             
             • Collaborated with industry professionals to utilize standard Data Visualization tools for eﬀective and accurate data storytelling.
 
-
+  # Research and Publications
   - title: Publications and Research Projects 
     layout: list 
     content:
@@ -112,6 +112,7 @@ content:
         description: | 
           Worked with <mark>YoloV3</mark> object detection framework for tracking hand movement using bounding boxes. This work involved developing a new dataset from scratch and using annotation tools to define bounding boxes. A dataset with frame-wise images and 21 features was created and used for training the framework.
 
+  # Technical Skills
   - title: Technical Skills
     layout: text
     content: | 
