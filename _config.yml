@@ -65,10 +65,22 @@ content:
   - title: Work Experience 
     layout: list 
     content:
-      
+      - layout: left
+        title: Centelon Solutions
+        link: Bengaluru, India
+        link_text: Bengaluru, India
+        sub_title: Data Analytics Intern
+        caption: December 2024 to March 2025
+        description: | 
+
+            • Worked on Data project RFP (Request for Proposal) reviews for a medium/large-scale Australian client. Proposed detailed clarification questions considering client requirements, pain points, and scope of work.
+            
+            • Researched and created documentation for common data security practices through an SRE/DE perspective.
+
       - layout: left
         title: ANZ Bank 
-        link: https://www.anz.com.au/
+        link: Bengaluru, India
+        link_text: Bengaluru, India
         sub_title: Site Reliability Engineer I, II 
         caption: April 2021 to January 2024
         description: | 
